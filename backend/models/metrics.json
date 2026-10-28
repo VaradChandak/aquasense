@@ -1,0 +1,16 @@
+{
+  "rain": {
+    "accuracy": 0.728,
+    "precision": 0.541,
+    "recall": 0.695,
+    "roc_auc": 0.795,
+    "rain_base_rate": 0.304,
+    "train_rows": 14028,
+    "test_rows": 3507,
+    "note": "Held-out last 20% of history. Predicts rain >= 0.5 mm in the next 6 h."
+  },
+  "temp_6h": {
+    "mae_c": 1.34,
+    "persistence_baseline_mae_c": 3.78
+  }
+}
